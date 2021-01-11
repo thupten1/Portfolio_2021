@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="menu__container">
+              <a href="index.html">home</a>
+              <a href="index.html#werk">Mijn werk</a>
+              <a href="#">Fotografie</a>
+              <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="hamburger__menu">
+            <div class="toggle__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <section class="section2">
+            <!-- <img src="img/bg.jpg" id="bg"> -->
+            <img src="img/moon.png" id="moon"> 
+            <img src="img/city.png" id="berg">
+            <img src="img/Thup.png" id="thup">
+            <h2 id="text">Brainport Eindhoven</h2>
+            
+        </section>
+        <div class="shorttext">
+            <h2>Hi, welkom!</h2>
+						<p>My name is Thupten Rekonkati. Originally, I’m from Tibet, but when I was 9, I moved to the Netherlands. I’ve always had an interest in IT so after high school, I started the MBO study “Application developer level 4”. After three years I graduated. I wanted to continue studying so I started at Fontys HBO-ICT. Currently I’m still studying this course where I chose Media as my specialization.</p>
+						<p>I can easily combine media with my hobby, photography. In my spare time I like to take photos that I later edit myself. I'am also a huge fan of music, I like listening to genres like hiphop, R&b and pop. Recently I started to play the guitaar which i think is really fun to do.</p>
+        </div>
+        <div class="Opd_section">
+            <ul class="list">
+                <li class="list-item">
+                  <div id="opdracht1" class="list-content">
+                   <h2>logo</h2>
+                  </div>
+                </li>              
+                <li class="list-item">
+                  <div class="list-content">
+                    <h2>Poster</h2>
+                  </div>
+                </li>
+              </ul>
+        </div>
+        <script type="text/javascript">
+            $(".hamburger__menu .toggle__menu").click(function() {
+                $(".hamburger__menu .toggle__menu").toggleClass("open");
+                $(".menu").toggleClass("open");
+            });
+        </script>
+    </body>
+    <footer>
+        <script src="javascript/javascript.js"></script>
+        <script src="jquery/jquery.js"></script>
+    </footer>
+</html>

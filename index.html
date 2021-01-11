@@ -38,21 +38,21 @@
         <div class="framemenu">
             <div id="werk" class="werk">
                 <div class="item" id="n1">
-                    <div id="artiestbranding" class="container">
+                    <div id="artiestbranding" class="container" onclick="reply_click(this.id)">
                         <img src="/img/work.jpg" alt="Forest" class="image">
                         <div class="overlay"> Artiest Branding</div>
                     </div>    
                 </div>
                 <!-- <div class="item"> </div> -->
                 <div class="item" id="n2">
-                    <div class="container">
+                    <div class="container" onclick="reply_click(this.id)" id="motionmirror">
                         <img src="/img/camera.jpg" alt="Forest" class="image">
                         <div class="overlay">Motion Mirror</div>
                     </div>
                 </div>
                 <!-- <div class="item"> </div> -->
                 <div class="item" id="n3">
-                    <div class="container">
+                    <div class="container" onclick="reply_click(this.id)" id="brainport">
                         <img src="/img/thup.jpeg" alt="Forest" class="image">
                         <div class="overlay">Brainport Eindhoven</div>
                     </div>
@@ -114,6 +114,10 @@
                 $(".hamburger__menu .toggle__menu").toggleClass("open");
                 $(".menu").toggleClass("open");
             });
+            $(".menu__container").click(function() {
+                $(".hamburger__menu .toggle__menu").toggleClass("");
+                $(".menu").toggleClass("");
+            })
         </script>
     </body>
     <footer>
