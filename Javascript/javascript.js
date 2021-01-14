@@ -19,6 +19,10 @@ function reply_click(clicked_id)
 {
     location.href = "../"+clicked_id+".html";
 }
+function reply_opd_click(opdclicked_id)
+{
+    location.href = "../"+opdclicked_id+".html";
+}
 
 
 /** 

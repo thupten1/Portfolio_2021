@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap');
+
+#logonoek{
+    background-image: url("../img/Schets_2.5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#posternoek{
+    background-image: url("../img/opdrachten/Noek/poster.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  #albumcovernoek{
+    background-image: url("../img/v4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logoNoek1{
+    background-image: url("../img/opdrachten/logo1.PNG");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logoNoek2{
+    background-image: url("../img/opdrachten/logo2.PNG");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logoNoek21{
+    background-image: url("../img/opdrachten/logo2.1.PNG");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logoNoek22{
+    background-image: url("../img/opdrachten/logo2.2.PNG");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ACN1{
+    background-image: url("../img/opdrachten/Noek/v1.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ACN2{
+    background-image: url("../img/opdrachten/Noek/v2.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ACN3{
+    background-image: url("../img/opdrachten/Noek/v3.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ACN4{
+    background-image: url("../img/opdrachten/Noek/v4.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ACN5{
+    background-image: url("../img/opdrachten/Noek/v5.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#posternoekv1{
+    background-image: url("../img/opdrachten/Noek/Poster-v1.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#posternoekv2{
+    background-image: url("../img/opdrachten/Noek/Poster.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#websitenoek{
+    background-image: url("../img/opdrachten/Noek/noek2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+#collorpalletnoek{
+    background-image: url("../img/opdrachten/Noek/colorp.PNG");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#storyboardnoek{
+    background-image: url("../img/opdrachten/Noek/storyboard.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

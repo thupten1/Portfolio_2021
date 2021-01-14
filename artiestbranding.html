@@ -2,6 +2,8 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/opdrachtcontent.css">
+
     </head>
     <body>
         <div class="menu">
@@ -9,7 +11,7 @@
               <a href="index.html">home</a>
               <a href="index.html#werk">Mijn werk</a>
               <a href="#">Fotografie</a>
-              <a href="#">Contact</a>
+              <a href="#contact_section">Contact</a>
             </div>
         </div>
         <div class="hamburger__menu">
@@ -20,59 +22,48 @@
             </div>
         </div>
         <section class="section2">
-            <!-- <img src="img/bg.jpg" id="bg"> -->
-            <img src="img/moon.png" id="moon"> 
-            <img src="img/city.png" id="berg">
-            <img src="img/Thup.png" id="thup">
+            <img src="img/naamloos-7489.jpg"> 
             <h2 id="text">ARTIESTEN BRANDING</h2>
             
         </section>
         <div class="shorttext">
-            <h2>Hi, welkom!</h2>
-						<p>My name is Thupten Rekonkati. Originally, I’m from Tibet, but when I was 9, I moved to the Netherlands. I’ve always had an interest in IT so after high school, I started the MBO study “Application developer level 4”. After three years I graduated. I wanted to continue studying so I started at Fontys HBO-ICT. Currently I’m still studying this course where I chose Media as my specialization.</p>
-						<p>I can easily combine media with my hobby, photography. In my spare time I like to take photos that I later edit myself. I'am also a huge fan of music, I like listening to genres like hiphop, R&b and pop. Recently I started to play the guitaar which i think is really fun to do.</p>
+            <h2>Noek</h2>
+						<p>Noek neemt je mee zodra de eerste noot gespeeld wordt. In haar muziek legt ze zichzelf bloot en geeft ze jou een kijkje in haar leven. Melancholische klanken gecombineerd met een zuivere stem zullen je raken. De verhalen zijn liefdevol, gewaagd en soms verdrietig.. Haar overtuigingskracht is bewonderenswaardig.            </p>
+						<p>Noek is een artiest die momenteel studeert aan de Muziek academy in Tilburg. Dit project hebben samen gewerkt met Noek om een brand te creëren. Hieronder vind uw mijn werk.</p>
         </div>
         <div class="Opd_section">
-            <!-- <div id="opdracht1" class="gd-container">
-                
-            </div>
-            <div class="gd-container">
-                <div id="opdracht1" class="gd-container">
-                
-                </div>
-            </div> -->
             <ul class="list">
                 <li class="list-item">
-                  <div id="opdracht1" class="list-content">
+                  <div id="logonoek" class="list-content" onclick="reply_opd_click(this.id)">
                    <h2>logo</h2>
                   </div>
                 </li>
                   
                    <li class="list-item">
-                  <div id="opdracht2" class="list-content">
+                  <div id="albumcovernoek" class="list-content" onclick="reply_opd_click(this.id)">
                     <h2>album cover</h2>  
                   </div>
                 </li>
                 
                 <li class="list-item">
-                  <div class="list-content">
+                  <div id="posternoek" class="list-content" onclick="reply_opd_click(this.id)">
                     <h2>Poster</h2>
                   </div>
                 </li>
                 
                 <li class="list-item">
-                  <div class="list-content">
-                    <h2>Visitekaartje</h2>
+                  <div id="websitenoek" class="list-content" onclick="reply_opd_click(this.id)">
+                    <h2>Website</h2>
                   </div>
                 </li>
                 
                 <li class="list-item">
-                  <div class="list-content">
+                  <div id="collorpalletnoek" class="list-content" onclick="reply_opd_click(this.id)">
                     <h2>Colorpallet</h2>
                   </div>
                 </li>
                 <li class="list-item">
-                  <div class="list-content">
+                  <div id="storyboardnoek" class="list-content" onclick="reply_opd_click(this.id)">
                     <h2>Storyboard</h2>
                   </div>
                 </li>
@@ -112,7 +103,13 @@
                     </li>
                 </li>
               </ul>
+              <div class="contact_section" id="contact_section">
+                <p>Email: thupten09@hotmail.com</p>
+                <p>Tel:. 0652476111</p>
+                <p>Instagram: thuptenrekonkati</p>
+            </div>
         </div>
+
         <script type="text/javascript">
             $(".hamburger__menu .toggle__menu").click(function() {
                 $(".hamburger__menu .toggle__menu").toggleClass("open");
