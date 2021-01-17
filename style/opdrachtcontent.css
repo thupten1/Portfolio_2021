@@ -102,3 +102,20 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+#logomm{
+    background-image: url("../img/mm.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#postermm{
+    background-image: url("../img/Poster_Smart_Mirror.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logomotion{
+    background-image: url("../img/logomm.PNG");
+    background-size:contain;
+    background-repeat: no-repeat;
+}

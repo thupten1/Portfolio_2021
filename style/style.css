@@ -155,6 +155,18 @@ section img
     height: 150vh;
     grid-gap: 10px;
   }
+  @media only screen and (max-width: 600px) {
+    .werk { 
+      grid-template-columns: auto auto;
+      grid-template-rows: auto;
+    }
+  }
+    @media only screen and (min-width: 600px) {
+     .werk { 
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto;
+    }
+  }
   
   .item {
    
